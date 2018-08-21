@@ -5,4 +5,6 @@ import android.databinding.ObservableField
 
 class MainVM : ViewModel() {
     val content = ObservableField<String>()
+    val textContent = ObservableField<String>()
+
 }
